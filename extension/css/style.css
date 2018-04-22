@@ -1,0 +1,103 @@
+/*
+ * File: style.css
+ *
+ * Created: 16 abr 2018 13:20:30
+ * Last Modified: 22 abr 2018 08:31:52
+ *
+ * Copyright (C) 2014  Michael Wolf a.k.a. mwgg (http://mw.gg)
+ * Copyright (C) 2018  Iván Ruvalcaba <mario.i.ruvalcaba[at]gmail[dot]com>
+ * Author: Iván Ruvalcaba <mario.i.ruvalcaba[at]gmail[dot]com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+body {
+  border: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 7px;
+}
+
+#passPhraseLength {
+  width: 50px;
+}
+
+.block {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  width: 170px;
+}
+
+.blockbutt {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  width: 100px;
+}
+
+.blockcopy {
+  opacity: 0;
+}
+
+.blockhide {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+  height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+}
+
+.blocklen {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  width: 150px;
+}
+
+.blockshow {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 180px;
+}
+
+.butt {
+  width: 100px;
+}
+
+.desc {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.pass {
+  width: 170px;
+}
+
+.show {
+  font-family: "Courier New", Courier, monospace;
+  height: 60px;
+  width: 180px;
+  word-wrap: break-word;
+}
+

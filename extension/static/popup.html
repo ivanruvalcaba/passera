@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <img src="../img/logo.png" class="logo" />
+    <div class="block">
+      <input type="password" class="pass" id="passPhrase" autocomplete="false" placeholder="Passphrase" />
+    </div>
+    <br />
+    <div class="block">
+      <input type="password" class="pass" id="comparePassPhrase" autocomplete="false" placeholder="Again (optional)" />
+    </div>
+    <br />
+    <div class="blocklen">
+      Password length: <input type="text" id="passPhraseLength" autocomplete="false" value="16" />
+    </div>
+    <br />
+    <div class="block">
+      <input type="checkbox" id="includeSpecialChars" checked="checked" />
+      <label for="includeSpecialChars">Use special characters</label>
+    </div>
+    <br />
+    <div class="blockbutt">
+      <input type="button" class="butt" id="buttonGenerate" value="Generate" />
+    </div>
+    <br />
+    <div class="blockshow">
+      <span id="displayMesssage" class="show">&nbsp;</span>
+    </div>
+    <br />
+    <div id="hide" class="blockhide">&nbsp;</div>
+    <div class="block blockcopy">
+      <input type="text" class="pass" id="password" autocomplete="false" value="" />
+    </div>
+    <br />
+    <br />
+    <div class="desc">
+      Read more and get the Android/Linux/Windows/Mac apps on <a href="https://github.com/mwgg/passera" target="_blank">GitHub</a>
+    </div>
+    <!-- WebExtension JavaScript -->
+    <script src="../js/popup.js"></script>
+    <script src="../js/hasher.js"></script>
+  </body>
+</html>
