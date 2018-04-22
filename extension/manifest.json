@@ -18,6 +18,7 @@
 		"default_title": "Passera"
 	},
 	"description": "Passera turns entered text into a strong password up to 64 characters long.",
+	"homepage_url": "https://github.com/ivanruvalcaba/passera",
 	"icons": {
 		"16": "img/icon-16.png",
 		"32": "img/icon-32.png",
