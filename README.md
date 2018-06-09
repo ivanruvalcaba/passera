@@ -4,6 +4,8 @@
 [//]: # (Created: 22 abr 2018 12:20:57)
 [//]: # (Last Modified: 22 abr 2018 14:03:00)
 
+> This project has been migrated to **GitLab**: [https://gitlab.com/ivanruvalcaba/passera](https://gitlab.com/ivanruvalcaba/passera) _(#GithubExodus)_.
+
 # Passera
 
 > Passera turns entered text into a strong password up to 64 characters long.
